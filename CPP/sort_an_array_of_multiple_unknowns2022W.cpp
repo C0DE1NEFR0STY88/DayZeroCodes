@@ -10,7 +10,8 @@ int main()
     
     cout<<"Size of array is "<<sizeof(arr)<<" with each element taking "<<sizeof(arr[0])<<" bytes.\n";
     cout<<"There are "<<a<<" elements in the array.";
-    
+
+    //sort(arr, arr+a);
     sort(begin(arr),end(arr));
     
     cout<<"\nThe sorted array is: \n";
@@ -22,6 +23,6 @@ int main()
     return 0;
 }
 
-
+//https://www.geeksforgeeks.org/sort-c-stl/
 //https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/
 //https://www.onlinegdb.com/
