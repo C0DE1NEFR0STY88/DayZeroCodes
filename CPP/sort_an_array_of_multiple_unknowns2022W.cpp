@@ -26,3 +26,29 @@ int main()
 //https://www.geeksforgeeks.org/sort-c-stl/
 //https://www.geeksforgeeks.org/sort-algorithms-the-c-standard-template-library-stl/
 //https://www.onlinegdb.com/
+
+
+
+
+/* toggle hehe just add in two slashes (try to mimic the ones at the end of this set) (spam pgup)
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    double arr[]={1,2,3,4,2,1,3,32,12,3,4,2,1,34,2,869,13,3,123,1,4,123,327,869,23,24,6,754,5675,575,57,34,24,32,242,9,87,6,65,5,234,4,65,43,3,6};
+    int a;
+    
+    a=(sizeof(arr)/sizeof(arr[0]));
+    cout<<"Size of the array is "<<sizeof(arr)<<" bytes, with each element taking "<<sizeof(arr[0])<<" bytes.";
+    cout<<"\nThere are "<<a<<" elements in the array";
+    
+    sort(begin(arr),end(arr));
+    cout<<"\n\nThe sorted array is: ";
+    for(int i=0;i<a;i++)
+        cout<<arr[i]<<" ";
+    
+    return 0;
+}
+//*/
