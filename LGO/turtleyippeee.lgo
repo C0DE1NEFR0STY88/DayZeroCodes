@@ -1,0 +1,4 @@
+repeat 100000 [ setcolor pick [ red orange yellow green blue violet ] fd 100 rt 90 wait 120]
+
+
+//https://staff.informatics.buu.ac.th/~krisana/logo/Logo-jFuller/logo8.htm#:~:text=When%20you%20save%20your%20session,PROCEDURES%20you%20defined%20are%20saved.
