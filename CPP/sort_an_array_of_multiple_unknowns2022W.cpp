@@ -52,3 +52,34 @@ int main()
     return 0;
 }
 //*/
+
+
+
+
+
+/*
+//begin end v/s arr arr+a: 
+//in a (), begin end doesn't work; must use arr arr+a logic path
+
+#include<iostream>
+
+using namespace std;
+
+void sortedthatone(double arr[], int noele)
+{
+    sort(arr, arr+noele); //begin end won't work here
+    for(int i=0;i<noele;i++)
+        cout<<arr[i]<<" ";
+}
+
+
+int main()
+{
+    double arr[]={123,7,1,53,61,76,5,23,1,76,56,153,71,6,35,15,3};
+    int noele;
+    noele=(sizeof(arr)/sizeof(arr[0]));
+    sortedthatone(arr,noele);
+    return 0;
+}
+
+*/
