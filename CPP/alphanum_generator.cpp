@@ -9,7 +9,7 @@ int main()
     srand(time(0)); //If srand() is not called, the rand() seed is set as if srand(1) were called at the program start
     
     int inplen;
-    char alphanumbase[]="1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    char alphanumbase[]="1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; //aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ1234567890
     int baselength=62; //length of alphanumbase[] string
     //cout<<sizeof(alphanumbase); //gives 63 as o/p
     
