@@ -26,3 +26,23 @@ int main()
     
     return 0;
 }
+
+
+
+/*
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char test[]={'a', 'b', 'c', 'd'}; //toggle
+    //char test[]={'a', 'b', 'c', 'd', '\0'}; //toggle
+    //char test[]="abcd"; //toggle
+    cout<<sizeof(test)<<" "<<test;
+    return 0;
+}
+
+//https://techdifferences.com/difference-between-character-array-and-string.html#:~:text=Here%2C%20%E2%80%9Cchar%E2%80%9D%20is%20a%20character%20data%20type%2C%20%E2%80%9Cname%E2%80%9D%20is%20a%20variable%20name%20of%20the%20character%20array.%20I%20had%20shown%20two%20ways%20to%20initialize%20the%20character%20array.%20In%20the%20first%20method%2C%20the%20null%20is%20explicitly%20mentioned%20and%20in%20the%20second%20method%2C%20the%20compiler%20automatically%20inserts%20the%20null.
+//https://en.wikipedia.org/wiki/Null_character
+*/
