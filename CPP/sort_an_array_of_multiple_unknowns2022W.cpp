@@ -153,6 +153,20 @@ int main()
 
 //https://stackoverflow.com/questions/1108780/why-do-i-always-get-the-same-sequence-of-random-numbers-with-rand
 //https://www.epochconverter.com/
-//ACTUAL_FIXED_END!!!
 
+/*
+activelinkdumplog below:
+https://www.google.com/search?q=unix+epoch&rlz=1C1GCEA_enIN1064IN1064&oq=unix+epoch&aqs=chrome..69i57.2362j0j1&sourceid=chrome&ie=UTF-8
+https://www.epochconverter.com/
+https://www.epochconverter.com/programming/c
+https://en.wikipedia.org/wiki/Unix_time#:~:text=11%20External%20links-,Definition,to%20as%20the%20Unix%20epoch.
+https://en.wikipedia.org/wiki/Epoch_(computing)
+https://en.wikipedia.org/wiki/Year_2000_problem
+https://en.wikipedia.org/wiki/Year_2000_problem#:~:text=computer%20system%20monitoring-,nuclear%20core,-rods%20at%20Peach
+https://callofduty.fandom.com/wiki/Sergei_Ravenov
+https://callofduty.fandom.com/wiki/Omega_Group
+https://callofduty.fandom.com/wiki/Omega_Group#:~:text=and%20their%20pilot-,Raptor%20One%2C,-Omega%20Group%20began
+//activelinkdumplog_end
+
+//ACTUAL_FIXED_END!!!
 */
