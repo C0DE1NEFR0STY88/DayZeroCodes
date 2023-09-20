@@ -83,3 +83,44 @@ int main()
 }
 
 */
+
+
+//AUTO GEN VERSION!!!!!
+/* 
+//ACTUAL!!!!
+#include<iostream>
+
+using namespace std;
+
+void sortedthatone(double arrrec[], int noelerec)
+{
+    sort(arrrec,arrrec+noelerec);
+    
+    cout<<"\n\nThe sorted array is: \n";
+    for(int i=0;i<noelerec;i++)
+        cout<<arrrec[i]<<" ";
+}
+
+int main()
+{
+    double randomsizer=rand()%500, arr[500];
+    
+    for(int k=0;k<randomsizer;k++)
+        arr[k]=rand()%10000;
+    //double arr[]={123,98,1,72,31,198,2,6,48,7,16,43,8,91,7,9481,23,4,7,0,192,8,3,74,91,82,37,4,98,3,749,18,36,5,892,3,7409,18,24,82,9,7,13};
+    int noele=sizeof(arr)/sizeof(arr[0]);
+    
+    cout<<"\nThere are "<<noele<<" elements in the array, with each element taking "<<sizeof(arr[0])<<" bytes.";
+    cout<<"\nThe array takes "<<sizeof(arr)<<" bytes in total.";
+    
+    cout<<"\n\nThe current array structure is: \n";
+    for(int j=0;j<noele;j++)
+        cout<<arr[j]<<" ";
+    
+    sortedthatone(arr,noele);
+    
+    return 0;
+}
+
+//ACTUAL_END!!!!
+*/
