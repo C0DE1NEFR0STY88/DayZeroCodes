@@ -124,3 +124,35 @@ int main()
 
 //ACTUAL_END!!!!
 */
+/***********************************************************************************************/
+/*
+//ACTUAL_FIXED!!! will continue when next to td yippeeeeee
+#include<iostream>
+
+using namespace std;
+
+void sortedthatone(double arrrec, int noelerec)
+{
+    
+}
+
+int main()
+{
+    srand(time(0)); //NEED TO SEED THE RANDOM FUNCTION AND LATCH IT TO TIME FOR CYBER-PSEUDO-RANDOMNESS TO BE STRONG
+    
+    int limiter=500, randomsizeman=rand()%limiter; 
+    double arr[randomsizeman];
+    
+    for(int i=0;i<randomsizeman;i++)
+        arr[i]=rand()%100000;
+    //cout<<sizeof(arr)<<" "<<randomsizeman;
+    
+    cout<<""
+    return 0;
+}
+
+//https://stackoverflow.com/questions/1108780/why-do-i-always-get-the-same-sequence-of-random-numbers-with-rand
+//https://www.epochconverter.com/
+//ACTUAL_FIXED_END!!!
+
+*/
