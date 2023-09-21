@@ -46,3 +46,35 @@ int main()
 //https://techdifferences.com/difference-between-character-array-and-string.html#:~:text=Here%2C%20%E2%80%9Cchar%E2%80%9D%20is%20a%20character%20data%20type%2C%20%E2%80%9Cname%E2%80%9D%20is%20a%20variable%20name%20of%20the%20character%20array.%20I%20had%20shown%20two%20ways%20to%20initialize%20the%20character%20array.%20In%20the%20first%20method%2C%20the%20null%20is%20explicitly%20mentioned%20and%20in%20the%20second%20method%2C%20the%20compiler%20automatically%20inserts%20the%20null.
 //https://en.wikipedia.org/wiki/Null_character
 */
+
+
+
+/* remove garbage from o/p patch
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    srand(time(0));
+    
+    char alphanumbase[]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    int basesizesafezone=62, userlength;
+    //cout<<sizeof(alphanumbase);
+    cout<<"\nEnter desired length: ";
+    cin>>userlength;
+    
+    char alphanumgen[userlength+1];
+    
+    for(int i=0;i<userlength;i++)
+        alphanumgen[i]=alphanumbase[rand()%basesizesafezone];
+    
+    alphanumgen[userlength+1]='\0'; //https://www.codeproject.com/Questions/1253566/Why-am-I-getting-garbage-values-along-with-the-res
+    cout<<"\nThe generated alphanumeric string is:\n";
+    
+    cout<<alphanumgen;
+    //for(int i=0;i<userlength;i++)
+    //    cout<<alphanumgen[i];
+    return 0;
+}
+*/
