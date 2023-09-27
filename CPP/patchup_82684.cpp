@@ -22,7 +22,7 @@ int main()
     double arr[randomman];
     
     for(int i=0;i<randomman;i++)
-        arr[i]=rand()%10000;
+        arr[i]=rand()%10000; //see actual for updates on this one
     
     numele=sizeof(arr)/sizeof(arr[0]);
     cout<<"\nThe array has "<<numele<<" elements, with each element taking "<<sizeof(arr[0])<<" bytes of storage.";
