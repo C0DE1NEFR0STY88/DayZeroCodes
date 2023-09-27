@@ -126,7 +126,7 @@ int main()
 */
 /***********************************************************************************************/
 /*
-//ACTUAL_FIXED!!! will continue when next to td yippeeeeee
+//ACTUAL_FIXED!!! will continue; possibly add in a flip logic to flip b/w whole and decimal during generation
 #include<iostream>
 
 using namespace std;
@@ -144,7 +144,8 @@ int main()
     double arr[randomsizeman];
     
     for(int i=0;i<randomsizeman;i++)
-        arr[i]=rand()%100000;
+        //arr[i]=rand()%100000;
+        arr[i]=(float((rand()%10000))/float((rand()%808))); //https://www.geeksforgeeks.org/generate-a-random-float-number-in-cpp/
     //cout<<sizeof(arr)<<" "<<randomsizeman;
     
     cout<<""
