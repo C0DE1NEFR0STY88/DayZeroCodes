@@ -171,3 +171,61 @@ https://callofduty.fandom.com/wiki/Omega_Group#:~:text=and%20their%20pilot-,Rapt
 
 //ACTUAL_FIXED_END!!!
 */
+
+
+
+
+
+
+//FLIP_GENERATION_PATCHED_IN:
+/*
+#include<iostream>
+
+using namespace std;
+
+void sortedthatone(long double arrrec[], int numelerec)
+{
+    sort(arrrec,arrrec+numelerec);
+    cout<<"\n\nSorted array is: \n";
+    for(int i=0;i<numelerec;i++)
+        cout<<arrrec[i]<<" ";
+}
+
+int main()
+{
+    srand(time(0));
+    
+    int randomman=rand()%1000, numele, randomflipper;
+    long double arr[randomman];
+    
+    for(int i=0;i<randomman;i++)
+    {
+        randomflipper=rand()%8888;
+        
+        if(((randomflipper%2)==0)&&((randomflipper%7)==0))
+            arr[i]=float(rand()%10000)/float(rand()%10000);
+        else if((randomflipper%3)==0)
+            arr[i]=rand()%1000;
+        else if((randomflipper%11)==0)
+            arr[i]=(rand()%10000)/randomflipper;
+        else
+            arr[i]=(3.1427*randomflipper)+88;
+    }
+    //NAN
+    //https://www.lucidchart.com/techblog/2022/03/04/if-its-not-a-number-what-is-it-demystifying-nan-for-the-working-programmer/
+    //was happening because of dangling else error
+    
+    numele=sizeof(arr)/sizeof(arr[0]);
+    
+    cout<<"\nThere are "<<numele<<" elements in the array; with each element taking "<<sizeof(arr[0])<<" bytes.";
+    cout<<"\nThe array takes "<<sizeof(arr)<<" bytes in total";
+    
+    cout<<"\n\nThe current array build structure is: \n";
+    for(int i=0;i<numele;i++)
+        cout<<arr[i]<<" ";
+    
+    sortedthatone(arr,numele);
+    
+    return 0;
+}
+*/
