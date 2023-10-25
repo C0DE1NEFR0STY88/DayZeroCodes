@@ -78,3 +78,34 @@ int main()
     return 0;
 }
 */
+
+
+
+//ACTUAL GARBAGE VAL PATCH (STABLE):
+/*
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    srand(time(0));
+    
+    int userlen, basesize=62;
+    
+    cout<<"\nEnter the desired length: ";
+    cin>>userlen;
+    
+    char alphanumbase[]="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890", alphanumgen[userlen];
+    //cout<<sizeof(alphanumbase);
+    
+    for(int i=0;i<userlen;i++)
+        alphanumgen[i]=alphanumbase[rand()%basesize];
+    
+    alphanumgen[userlen]='\0';
+    
+    cout<<"\n\n"<<alphanumgen;
+    
+    return 0;
+}
+*/
