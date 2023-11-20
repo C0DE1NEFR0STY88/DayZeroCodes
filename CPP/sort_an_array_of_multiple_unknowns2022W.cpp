@@ -197,7 +197,11 @@ int main()
     
     int randomman=rand()%1000, numele, randomflipper;
     long double arr[randomman];
-    
+
+    //using i here for random strain isn't smart; as it will make the arr generation predictable (since depends entirely on pos)
+    //better to use another random variable spawn/mutation for if conditions.
+    //used randomflipper for mutation.
+    //see 2023 ver for actual with chrono implant.
     for(int i=0;i<randomman;i++)
     {
         randomflipper=rand()%8888;
