@@ -24,7 +24,10 @@ int main()
     
     int noele, randomman=rand()%1000, randomflipper;
     double arr[randomman];
-    
+
+    //using i here for random strain isn't smart; as it will make the arr generation predictable (since depends entirely on pos)
+    //better use another random variable spawn/mutation for if conditions.
+    //used randomflipper var for mutation.
     for(int i=0;i<randomman;i++)
     {
         randomflipper=rand()%1111;
