@@ -3,14 +3,14 @@
 using namespace std;
 
 
-float hmtodecval(float hrs, float min)
+void hmtodecval(float hrs, float min)
 {
     float decvalcalc=hrs+(min/60);
     cout<<"\n"<<hrs<<" hours and "<<min<<"minutes is "<<decvalcalc;
 }
 
 
-float decvaltohm(float decvalpassed)
+void decvaltohm(float decvalpassed)
 {
     float mincalc=decvalpassed*60;
     cout<<"\n"<<decvalpassed<<" is "<<mincalc<<" minutes ";
