@@ -1,6 +1,6 @@
 import sys
 
-arr = list(map(int, input().split()))
+arr = list(map(int, input().split())) #integer array in python
 print ("The number of elements in array is", (sys.getsizeof(arr)/sys.getsizeof(arr[0])))
 print ("The number of elements in array is", len(arr))
 print ("The size of array is", sys.getsizeof(arr), "bytes. With each element taking", sys.getsizeof(arr[0]), "bytes.")
