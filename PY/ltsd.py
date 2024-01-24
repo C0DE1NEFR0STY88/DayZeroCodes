@@ -34,3 +34,5 @@ print(L2)
 
 
 #https://www.geeksforgeeks.org/python-lists/
+
+#https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/
