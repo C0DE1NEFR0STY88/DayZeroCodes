@@ -34,7 +34,7 @@ n1=int(input("Enter number 1: "))
 n2=int(input("Enter number 2: "))
 
 funcchoice=int(input("Enter arith () choice: 1.Addition 2.Subtraction 3.Multiplication 4.Division :: "))
-
+#no switch case in py, must use if conitional statements
 if(funcchoice==1):
     add(n1,n2)
 elif(funcchoice==2):
