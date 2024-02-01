@@ -1,0 +1,5 @@
+works in python !!!!!!!!
+
+found via IDLE->Help->Turtle Demo
+
+#https://docs.python.org/3/library/turtle.html#starting-a-turtle-environment
