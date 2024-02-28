@@ -1,4 +1,4 @@
-
+=============================================================================================
 For example, to find a pattern in a file and print the matches to the standard output, we’ll find that all of them can do that.
 However, if we stretch beyond this simple exercise, we’ll find that grep is only good for simple text matching and printing. (regex matching)
 On the other hand, in addition to match and print text, sed offers additional text transformation commands like substitution.
@@ -6,4 +6,7 @@ Finally, awk, being the most powerful of these tools, is a scripting language th
 
 https://www.baeldung.com/linux/grep-sed-awk-differences
 Difference Between grep, sed, and awk | Baeldung on Linux
-Let's look at the differences between grep, sed, and awk.
+=============================================================================================
+https://stackoverflow.com/a/1632565
+grep=> used for text patterns 
+=============================================================================================
