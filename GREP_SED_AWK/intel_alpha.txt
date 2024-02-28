@@ -12,3 +12,7 @@ grep=> used for text patterns
 =============================================================================================
 https://pediaa.com/difference-between-sed-and-awk/
 =============================================================================================
+grep usage:  simple text scanning and matching. 
+sed is more useful than grep when we want to transform our text.
+Finally, awk is capable of replicating grep and sed functionality while additionally providing more features for advanced text processing.
+=============================================================================================
