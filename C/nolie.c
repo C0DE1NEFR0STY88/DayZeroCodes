@@ -24,3 +24,4 @@ void main()
 //https://www.geeksforgeeks.org/man-in-the-middle-attack-in-diffie-hellman-key-exchange/
 //ssl verif shutdown will expose you to MITM attack
 //https://stackoverflow.com/questions/69266522/how-ssl-certificate-prevents-man-in-the-middle-attack
+//https://www.onlinegdb.com/
