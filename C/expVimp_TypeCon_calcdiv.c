@@ -67,3 +67,4 @@ void main()
     //getch();
 }
 //https://www.geeksforgeeks.org/implicit-and-explicit-type-casting/
+//https://github.com/C0DE1NEFR0STY88/DayZeroCodes/blob/main/CPP/expVimp_TypeCon_calcdiv.cpp
