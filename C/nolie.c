@@ -3,7 +3,7 @@
 
 void main()
 {
-    int a=0, b=1, c, n, i=0;
+    int a=0, b=1, c, n, i=0; //c = a+b, //also valid
     printf("Enter the range: ");
     scanf("%d", &n);
     //printf("%d", n);
