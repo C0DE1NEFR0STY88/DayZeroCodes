@@ -10,3 +10,6 @@ func main(){
     
     fmt.Println(a, d)
 }
+
+//https://gobyexample.com/
+//https://go.dev/learn/
